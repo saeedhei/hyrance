@@ -1,0 +1,42 @@
+version: "3.8"  
+
+services:
+  hyrance-backend:
+    container_name: backend
+    image: hyrance-backend
+    build: .  
+    ports:
+      - "5000:3000"  
+    volumes:
+      - ./:/express-docker
+    networks:
+      - neto       
+    depends_on:
+      - hyrance-mongo 
+
+  hyrance-mongo:
+    container_name: mongodb
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - neto  
+
+volumes:
+  mongo-data:
+
+networks:
+  neto:
+    driver: bridge
+# networks:
+#   neto:
+#     external: true
+
+# docker-compose up 
+# docker network ls
+# docker network rm neto
+# docker network create neto
+
+   
