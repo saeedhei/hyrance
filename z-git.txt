@@ -12,7 +12,7 @@ error: failed to push some refs to 'https://github.com/saeedhei/devops-github-ac
 git checkout -b main
 git push origin main
 
-
+rm .git/index.lock
 
 …or create a new repository on the command line
 echo "# devops-github-actions" >> README.md
