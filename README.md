@@ -11,7 +11,7 @@ Hyrance is a demo project consisting of a frontend, backend, and MongoDB databas
 ### 1. Clone the Repository
 
 git clone https://github.com/saeedhei/hyrance.git
-cd Hyrance
+- cd Hyrance
 
 ### 2. Start Docker Containers
 docker-compose up
