@@ -31,6 +31,7 @@ To stop the running containers, use `Ctrl + C` in the terminal where Docker Comp
 
 ## Directory Structure
 
+```bash
 Hyrance/
 ├── backend/                  # Backend application files
 │   ├── Dockerfile            # Dockerfile for backend
