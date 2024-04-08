@@ -43,7 +43,7 @@ Hyrance/
 │   └── init-mongo.js         # MongoDB initialization script
 ├── docker-compose.yml        # Docker Compose configuration file
 └── README.md                 # Project documentation
-```bash
+
 
 
 ## Customize Configuration (Optional)
