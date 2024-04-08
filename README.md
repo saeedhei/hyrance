@@ -43,7 +43,7 @@ Hyrance/
 │   └── init-mongo.js         # MongoDB initialization script
 ├── docker-compose.yml        # Docker Compose configuration file
 └── README.md                 # Project documentation
-...
+```
 
 ## Customize Configuration (Optional)
 - You can customize the Docker Compose configuration according to your needs by modifying the `docker-compose.yml` file.
